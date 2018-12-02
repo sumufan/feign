@@ -63,6 +63,7 @@ public class GitHubExample {
           .logger(new Logger.ErrorLogger())
           .logLevel(Logger.Level.BASIC)
           .target(GitHub.class, "https://api.github.com");
+
     }
   }
 
